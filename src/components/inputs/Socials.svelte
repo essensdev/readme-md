@@ -17,7 +17,7 @@
     }}
     class="w-full flex justify-between"
     ><h3 class="text-a1 dark:text-a8">
-      <span class="mr-3">{visible ? "↓" : "→"}</span>Social Media Links
+      <span class="mr-3">{visible ? "↓" : "→"}</span>Contacts
     </h3></button
   >
   {#if visible}

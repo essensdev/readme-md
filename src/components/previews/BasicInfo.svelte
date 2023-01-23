@@ -5,10 +5,8 @@
   $: subtitle = $basicInfo[1].value;
   $: desc = $basicInfo[2].value;
   $: location = $basicInfo[3].value;
-  $: email = $basicInfo[4].value;
-  $: website = $basicInfo[5].value;
-  $: currently = $basicInfo[6].value;
-  $: recent = $basicInfo[7].value;
+  $: currently = $basicInfo[4].value;
+  $: recent = $basicInfo[5].value;
 </script>
 
 <div>
@@ -24,15 +22,6 @@
   <div class="my-5">
     {#if location.length > 0}
     <p>⚐ {location}</p>
-    {/if}
-  </div>
-
-  <div class="my-5">
-    {#if website.length > 0}
-    <p><a href={website} target="_blank" rel="noreferrer noopener">↗︎ Website</a></p>
-    {/if}
-    {#if email.length > 0}
-    <p><a href={`mailto:${email}`} target="_blank" rel="noreferrer noopener">↗︎ Email</a></p>
     {/if}
   </div>
 

@@ -31,27 +31,13 @@ export const basicInfo = writable([
     },
     {
         key: 5,
-        name: 'email',
-        label: 'Email:',
-        value: '',
-        placeholder: 'youremail@mailservice.com'
-    },
-    {
-        key: 6,
-        name: 'website',
-        label: 'Website:',
-        value: '',
-        placeholder: 'https://yourwebsite.com'
-    },
-    {
-        key: 7,
         name: 'currently',
         label: 'Currently:',
         value: '',
         placeholder: 'building something cool'
     },
     {
-        key: 8,
+        key: 6,
         name: 'recent',
         label: 'Recently:',
         value: '',
@@ -62,44 +48,66 @@ export const basicInfo = writable([
 export const socialLinks = writable([
     {
         key: 1,
-        name: 'twitter',
+        name: 'website',
         value: '',
-        url: 'https://twitter.com/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/twitter.svg'
+        url: 'https://',
+        placeholder: 'mywebsite.com',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/globe.svg'
     },
     {
         key: 2,
-        name: 'linkedin',
+        name: 'email',
         value: '',
-        url: 'https://www.linkedin.com/in/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/linkedin.svg'
+        url: 'mailto:',
+        placeholder: 'myemail@service.com',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/at.svg'
     },
     {
         key: 3,
-        name: 'twitch',
+        name: 'twitter',
         value: '',
-        url: 'https://www.twitch.tv/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/twitch.svg'
+        url: 'https://twitter.com/',
+        placeholder: 'account',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/twitter.svg'
     },
     {
         key: 4,
-        name: 'youtube',
+        name: 'linkedin',
         value: '',
-        url: 'https://www.youtube.com/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/youtube.svg'
+        url: 'https://www.linkedin.com/in/',
+        placeholder: 'account',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/linkedin.svg'
     },
     {
         key: 5,
-        name: 'discord',
+        name: 'twitch',
         value: '',
-        url: 'https://discord.com/user/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/discord.svg'
+        url: 'https://www.twitch.tv/',
+        placeholder: 'account',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/twitch.svg'
     },
     {
         key: 6,
+        name: 'youtube',
+        value: '',
+        url: 'https://www.youtube.com/',
+        placeholder: 'account',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/youtube.svg'
+    },
+    {
+        key: 7,
+        name: 'discord',
+        value: '',
+        url: 'https://discord.com/user/',
+        placeholder: 'account',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/discord.svg'
+    },
+    {
+        key: 8,
         name: 'behance',
         value: '',
         url: 'https://www.behance.net/',
+        placeholder: 'account',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/behance.svg'
     },
 ])

@@ -11,10 +11,8 @@
   $: subtitle = $basicInfo[1].value;
   $: desc = $basicInfo[2].value;
   $: location = $basicInfo[3].value;
-  $: email = $basicInfo[4].value;
-  $: website = $basicInfo[5].value;
-  $: currently = $basicInfo[6].value;
-  $: recent = $basicInfo[7].value;
+  $: currently = $basicInfo[4].value;
+  $: recent = $basicInfo[5].value;
 
   const copyText = (event) => {
     event.preventDefault();
@@ -33,55 +31,46 @@
   subtitle.length > 0 ||
   desc.length > 0 ||
   location.length > 0 ||
-  email.length > 0 ||
-  website.length > 0 ||
   currently.length > 0 ||
   recent.length > 0
-    ? "h-full overflow-auto p-5"
+    ? "h-full overflow-auto"
     : "hidden"}
 >
-  <div id="markdown-output" class="w-full font-mono text-a5 text-[0.7rem]">
+  <div id="markdown-output" class="w-full font-mono text-a5 text-[0.7rem] p-5">
     <p class="md-section">
-      {`${name.length > 0 && "# " + name}
+      {`${name && "# " + name}
+${subtitle && "### " + subtitle}
 
-${subtitle.length > 0 && "#### " + subtitle}
-
-${desc.length > 0 && "⤷ " + desc}
-
-${desc.length > 0 && "---"}
-        
-`}
-    </p>
-
-    <p class="md-section">
-      {`${location.length > 0 && "⚐ " + location}
-
-${website.length > 0 && "[Website ↗︎](" + website + ")"}
-
-${email.length > 0 && "[Email ↗︎](mailto:" + email + ")"}
+${desc && desc}
 
 `}
     </p>
 
     <p class="md-section">
-      {`${currently.length > 0 && "ϟ Currently " + currently}
-
-${recent.length > 0 && "ϟ Recently" + recent}
-
-        `}
-    </p>
-    <p class="md-output">
-      <span>{`<p aligh="left">`}</span>
       {#each $socialLinks as link (link.key)}
-        <span>
-          {`<a href=${link.url}${link.value} target="_blank" rel="noreferrer noopener"><img src=${link.img} alt=${link.alt} width="25" height="25" /></a>`}
-        </span>
+        {#if link.value.length > 0}
+          <span>
+            {`<a aligh="left" href=${link.url}${link.value} target="_blank" rel="noreferrer noopener"><img src=${link.img} alt=${link.alt} width="22" height="22" /></a>`}
+          </span>
+        {/if}
       {/each}
-      <span>{`</p>`}</span>
     </p>
 
-    <p class="md-output">
-      <span>{`<p aligh="left">`}</span>
+    <p class="md-section">{`
+
+
+${desc && "---"}
+
+${location && "⚐ " + location}
+
+${currently && "ϟ Currently " + currently}
+
+${recent && "ϟ Recently " + recent}
+
+`}
+    </p>
+
+    <p class="md-section">
       {#each $coreSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
@@ -89,11 +78,9 @@ ${recent.length > 0 && "ϟ Recently" + recent}
           </span>
         {/if}
       {/each}
-      <span>{`</p>`}</span>
     </p>
 
-    <p class="md-output">
-      <span>{`<p aligh="left">`}</span>
+    <p class="md-section">
       {#each $frontendSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
@@ -101,11 +88,9 @@ ${recent.length > 0 && "ϟ Recently" + recent}
           </span>
         {/if}
       {/each}
-      <span>{`</p>`}</span>
     </p>
 
-    <p class="md-output">
-      <span>{`<p aligh="left">`}</span>
+    <p class="md-section">
       {#each $backendSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
@@ -113,7 +98,6 @@ ${recent.length > 0 && "ϟ Recently" + recent}
           </span>
         {/if}
       {/each}
-      <span>{`</p>`}</span>
     </p>
   </div>
 </div>
