@@ -1,50 +1,23 @@
-# Welcome to [Astro](https://astro.build)
+![Story.Dev Preview](public/demo2.gif)
+# Story.Dev
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/basics)
+Thank you for stopping by. This project was created to help developers simplify the process of making a descriptive and engaging description for their GitHub profiles.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Since I like more minimalistic and simple visuals, I went with a pretty simple markup that allows adding the essentials. More functions might be coming later.
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+![Process](public/demo3.gif)
 
+If you would like me to add more social media, or skills, or share the description you ended up with, please reach out on [Twitter](https://twitter.com/0x_shapeshifter). I'll be happy to chat.
 
-## 🚀 Project Structure
+## How to use it
+Fill the form on the [website](https://dev-story.vercel.app/create), preview the results, copy and paste the snippet. That's it!
 
-Inside of your Astro project, you'll see the following folders and files:
+## How to add the snippet to your GitHub profile
+1. Generate the snippet.
+2. Create a new repository with the exact name as your profile on Github.
+3. Create a README.md file, paste the snippet here.
+4. Push it to the GitHub. Voila!
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+#### If you already have a README.md as you profile description, just update it.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+![Adding the description](public/demo4.gif)

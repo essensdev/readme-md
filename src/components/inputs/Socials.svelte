@@ -38,7 +38,7 @@
           label={link.url}
           id={link.name}
           bind:value={link.value}
-          placeholder="account"
+          placeholder={link.placeholder ? link.placeholder : "account"}
         />
       {/each}
     </div>

@@ -12,8 +12,8 @@
   <div
     class="flex justify-start items-center bg-a8 dark:bg-a2/50 py-1 rounded-l-md px-2"
   >
-    <img width="30" class="px-2" {alt} src={img} />
-    <label class="hidden md:block" for={name}>{label}</label>
+    <img width="17" {alt} src={img} />
+    <label class="hidden md:block px-2" for={name}>{label}</label>
   </div>
   <input
     autocomplete="off"

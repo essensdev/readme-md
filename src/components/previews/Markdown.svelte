@@ -41,7 +41,7 @@
       {`${name && "# " + name}
 ${subtitle && "### " + subtitle}
 
-${desc && desc}
+${desc && "⤷ " + desc}
 
 `}
     </p>
@@ -50,7 +50,7 @@ ${desc && desc}
       {#each $socialLinks as link (link.key)}
         {#if link.value.length > 0}
           <span>
-            {`<a aligh="left" href=${link.url}${link.value} target="_blank" rel="noreferrer noopener"><img src=${link.img} alt=${link.alt} width="22" height="22" /></a>`}
+            {`<a aligh="left" href="${link.url}${link.value}" target="_blank" rel="noreferrer noopener"><img src="${link.img}" alt="${link.alt}" width="22" height="22" /></a>`}
           </span>
         {/if}
       {/each}

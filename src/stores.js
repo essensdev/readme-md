@@ -52,6 +52,7 @@ export const socialLinks = writable([
         value: '',
         url: 'https://',
         placeholder: 'mywebsite.com',
+        alt: 'Website',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/globe.svg'
     },
     {
@@ -60,6 +61,7 @@ export const socialLinks = writable([
         value: '',
         url: 'mailto:',
         placeholder: 'myemail@service.com',
+        alt: 'Email',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/at.svg'
     },
     {
@@ -68,6 +70,7 @@ export const socialLinks = writable([
         value: '',
         url: 'https://twitter.com/',
         placeholder: 'account',
+        alt: 'Twitter',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/twitter.svg'
     },
     {
@@ -76,6 +79,7 @@ export const socialLinks = writable([
         value: '',
         url: 'https://www.linkedin.com/in/',
         placeholder: 'account',
+        alt: 'LinkedIn',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/linkedin.svg'
     },
     {
@@ -84,6 +88,7 @@ export const socialLinks = writable([
         value: '',
         url: 'https://www.twitch.tv/',
         placeholder: 'account',
+        alt: 'Twitch',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/twitch.svg'
     },
     {
@@ -92,6 +97,7 @@ export const socialLinks = writable([
         value: '',
         url: 'https://www.youtube.com/',
         placeholder: 'account',
+        alt: 'YouTube',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/youtube.svg'
     },
     {
@@ -100,6 +106,7 @@ export const socialLinks = writable([
         value: '',
         url: 'https://discord.com/user/',
         placeholder: 'account',
+        alt: 'Discord',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/discord.svg'
     },
     {
@@ -108,6 +115,7 @@ export const socialLinks = writable([
         value: '',
         url: 'https://www.behance.net/',
         placeholder: 'account',
+        alt: 'Behance',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/behance.svg'
     },
 ])
