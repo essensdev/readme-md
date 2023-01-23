@@ -65,42 +65,42 @@ export const socialLinks = writable([
         name: 'twitter',
         value: '',
         url: 'https://twitter.com/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/socials/twitter.svg'
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/twitter.svg'
     },
     {
         key: 2,
         name: 'linkedin',
         value: '',
         url: 'https://www.linkedin.com/in/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/socials/linkedin.svg'
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/linkedin.svg'
     },
     {
         key: 3,
         name: 'twitch',
         value: '',
         url: 'https://www.twitch.tv/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/socials/twitch.svg'
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/twitch.svg'
     },
     {
         key: 4,
         name: 'youtube',
         value: '',
         url: 'https://www.youtube.com/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/socials/youtube.svg'
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/youtube.svg'
     },
     {
         key: 5,
         name: 'discord',
         value: '',
         url: 'https://discord.com/user/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/socials/discord.svg'
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/discord.svg'
     },
     {
         key: 6,
         name: 'behance',
         value: '',
         url: 'https://www.behance.net/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/socials/behance.svg'
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/behance.svg'
     },
 ])
 
@@ -111,7 +111,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'C',
         url: 'https://www.learn-c.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/c.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/c.svg',
     },
     {
         key: 2,
@@ -119,7 +119,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'C++',
         url: 'https://cplusplus.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/cplus.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/cplus.svg',
     },
     {
         key: 3,
@@ -127,7 +127,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'C#',
         url: 'https://learn.microsoft.com/en-us/dotnet/csharp/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/csharp.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/csharp.svg',
     },
     {
         key: 4,
@@ -135,7 +135,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'CoffeeScript',
         url: 'https://coffeescript.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/coffeescript.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/coffeescript.svg',
     },
     {
         key: 5,
@@ -143,7 +143,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'Dart',
         url: 'https://dart.dev',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/dart.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/dart.svg',
     },
     {
         key: 6,
@@ -151,7 +151,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'Go',
         url: '',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/go.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/go.svg',
     },
     {
         key: 7,
@@ -159,7 +159,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'Java',
         url: 'https://www.java.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/java.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/java.svg',
     },
     {
         key: 8,
@@ -167,7 +167,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'JavaScript',
         url: 'https://www.javascript.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/javascript.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/javascript.svg',
     },
     {
         key: 9,
@@ -175,7 +175,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'Kotlin',
         url: 'https://kotlinlang.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/kotlin.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/kotlin.svg',
     },
     {
         key: 10,
@@ -183,7 +183,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'Perl',
         url: 'https://www.perl.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/perl.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/perl.svg',
     },
     {
         key: 11,
@@ -191,7 +191,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'PHP',
         url: 'https://www.php.net',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/php.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/php.svg',
     },
     {
         key: 12,
@@ -199,7 +199,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'Python',
         url: 'https://www.python.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/python.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/python.svg',
     },
     {
         key: 13,
@@ -207,7 +207,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'R',
         url: 'https://r-lang.com/what-is-r-language/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/r.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/r.svg',
     },
     {
         key: 14,
@@ -215,7 +215,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'Ruby',
         url: 'https://www.ruby-lang.org/en/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/ruby.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/ruby.svg',
     },
     {
         key: 15,
@@ -223,7 +223,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'Rust',
         url: 'https://www.rust-lang.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/rust.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/rust.svg',
     },
     {
         key: 16,
@@ -231,7 +231,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'Swift',
         url: 'https://www.apple.com/swift/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/swift.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/swift.svg',
     },
     {
         key: 17,
@@ -239,7 +239,7 @@ export const coreSkills = writable([
         value: false,
         alt: 'Typescript',
         url: 'https://www.typescriptlang.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/core/typescript.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/core/typescript.svg',
     },
 ])
 
@@ -250,7 +250,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'HTML5',
         url: 'https://html.com/html5/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/html5.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/html5.svg',
     },
     {
         key: 2,
@@ -258,7 +258,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'CSS3',
         url: 'https://css3.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/css3.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/css3.svg',
     },
     {
         key: 3,
@@ -266,7 +266,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'React',
         url: 'https://reactjs.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/react.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/react.svg',
     },
     {
         key: 4,
@@ -274,7 +274,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Vue',
         url: 'https://vuejs.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/vue.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/vue.svg',
     },
     {
         key: 5,
@@ -282,7 +282,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Angular',
         url: 'https://angularjs.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/angular.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/angular.svg',
     },
     {
         key: 6,
@@ -290,7 +290,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Svelte',
         url: 'http://svelte.dev',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/svelte.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/svelte.svg',
     },
     {
         key: 7,
@@ -298,7 +298,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Qwik',
         url: 'https://qwik.builder.io',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/qwik.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/qwik.svg',
     },
     {
         key: 8,
@@ -306,7 +306,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'SolidJS',
         url: 'https://www.solidjs.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/solidjs.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/solidjs.svg',
     },
     {
         key: 9,
@@ -314,7 +314,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'NextJS',
         url: 'https://nextjs.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/nextjs.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/nextjs.svg',
     },
     {
         key: 10,
@@ -322,7 +322,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'NuxtJS',
         url: 'https://nuxtjs.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/nuxtjs.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/nuxtjs.svg',
     },
     {
         key: 11,
@@ -330,7 +330,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Gatsby',
         url: 'https://www.gatsbyjs.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/gatsby.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/gatsby.svg',
     },
     {
         key: 12,
@@ -338,7 +338,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'JQuery',
         url: 'https://jquery.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/jquery.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/jquery.svg',
     },
     {
         key: 13,
@@ -346,7 +346,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'SASS',
         url: 'https://sass-lang.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/sass.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/sass.svg',
     },
     {
         key: 14,
@@ -354,7 +354,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Tailwind',
         url: 'http://tailwindcss.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/tailwind.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/tailwind.svg',
     },
     {
         key: 15,
@@ -362,7 +362,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Bootstrap',
         url: 'https://getbootstrap.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/bootstrap.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/bootstrap.svg',
     },
     {
         key: 16,
@@ -370,7 +370,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Material UI',
         url: 'https://mui.com/material-ui/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/mui.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/mui.svg',
     },
     {
         key: 17,
@@ -378,7 +378,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Redux',
         url: 'https://redux.js.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/redux.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/redux.svg',
     },
     {
         key: 18,
@@ -386,7 +386,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Webpack',
         url: 'https://webpack.js.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/webpack.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/webpack.svg',
     },
     {
         key: 19,
@@ -394,7 +394,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Babel',
         url: 'https://babeljs.io',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/babel.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/babel.svg',
     },
     {
         key: 20,
@@ -402,7 +402,7 @@ export const frontendSkills = writable([
         value: false,
         alt: 'Vite',
         url: 'http://vitejs.dev/',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/frontend/vite.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/frontend/vite.svg',
     },
 ])
 
@@ -413,7 +413,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'NodeJS',
         url: 'https://nodejs.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/nodejs.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/nodejs.svg',
     },
     {
         key: 2,
@@ -421,7 +421,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'Express',
         url: 'http://expressjs.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/express.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/express.svg',
     },
     {
         key: 3,
@@ -429,7 +429,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'GraphQL',
         url: 'https://graphql.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/graphql.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/graphql.svg',
     },
     {
         key: 4,
@@ -437,7 +437,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'Mongo DB',
         url: 'https://www.mongodb.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/mongodb.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/mongodb.svg',
     },
     {
         key: 5,
@@ -445,7 +445,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'MySQL',
         url: 'https://www.mysql.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/mysql.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/mysql.svg',
     },
     {
         key: 6,
@@ -453,7 +453,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'PostgreSQL',
         url: 'https://www.postgresql.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/postgresql.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/postgresql.svg',
     },
     {
         key: 7,
@@ -461,7 +461,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'Firebase',
         url: 'https://firebase.google.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/firebase.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/firebase.svg',
     },
     {
         key: 8,
@@ -469,7 +469,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'Heroku',
         url: 'https://www.heroku.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/heroku.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/heroku.svg',
     },
     {
         key: 9,
@@ -477,7 +477,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'Supabase',
         url: 'https://supabase.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/supabase.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/supabase.svg',
     },
     {
         key: 10,
@@ -485,7 +485,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'PlanetScale',
         url: 'http://planetscale.com',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/planetscale.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/planetscale.svg',
     },
     {
         key: 11,
@@ -493,7 +493,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'Prisma',
         url: 'http://prisma.io',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/prisma.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/prisma.svg',
     },
     {
         key: 12,
@@ -501,7 +501,7 @@ export const backendSkills = writable([
         value: false,
         alt: 'tRPC',
         url: 'http://trpc.io',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/trpc.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/trpc.svg',
     },
     {
         key: 13,
@@ -509,6 +509,6 @@ export const backendSkills = writable([
         value: false,
         alt: 'Sanity',
         url: 'http://sanity.io',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/story-dev/master/public/images/skills/backend/sanity.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/sanity.svg',
     },
 ])
