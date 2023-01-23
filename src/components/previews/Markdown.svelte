@@ -77,7 +77,7 @@ ${recent && "ϟ Recently " + recent}
       {#each $coreSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
-            {`<a href=${skill.url}${skill.value} target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
+            {`<a href="${skill.url}" target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
           </span>
         {/if}
       {/each}
@@ -87,7 +87,7 @@ ${recent && "ϟ Recently " + recent}
       {#each $frontendSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
-            {`<a href=${skill.url}${skill.value} target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
+            {`<a href="${skill.url}" target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
           </span>
         {/if}
       {/each}
@@ -97,7 +97,7 @@ ${recent && "ϟ Recently " + recent}
       {#each $backendSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
-            {`<a href=${skill.url}${skill.value} target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
+            {`<a href="${skill.url}" target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
           </span>
         {/if}
       {/each}
