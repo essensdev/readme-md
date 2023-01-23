@@ -4,19 +4,23 @@
 
 @layer base {
     body {
-        @apply antiliased h-screen flex flex-col justify-between bg-white dark:bg-black scroll-smooth
+        @apply antialiased h-screen flex flex-col justify-between bg-white dark:bg-black scroll-smooth
     }
 
     main {
         @apply max-w-6xl mx-auto w-full px-5 xl:p-0 
     }
 
+    nav, footer {
+        @apply py-10 px-5
+    }
+
     h1 {
-        @apply text-7xl md: text-8xl
+        @apply text-7xl md:text-8xl
     }
 
     h3 {
-        @apply text-lg text-a1 dark: text-a8 tracking-wide
+        @apply text-lg text-a1 dark:text-a8 tracking-wide
     }
 
     button {
@@ -29,5 +33,25 @@
 
     input, textarea {
         @apply grow ring-0 outline-none text-[0.9rem] focus:border-a6 placeholder:text-a4 text-a1 dark:text-a8 px-3 py-1.5 rounded-md dark:bg-inherit dark:border-a3 font-mono
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-black text-white border border-black hover:bg-white hover:text-black dark:text-black dark:border-white dark:bg-white dark:hover:text-white dark:hover:bg-black dark:hover:border-white active:bg-white active:text-black focus:bg-white focus:text-black dark:active:text-white dark:active:bg-black dark:active:border-white dark:focus:text-white dark:focus:bg-black dark:focus:border-white rounded-md transition-all duration-500 tracking-wide
+    }
+
+    .btn-secondary {
+        @apply bg-a8 text-a4 hover:text-black border hover:border-black border-a7 focus:text-black focus:border-black dark:bg-a1 dark:text-a4 dark:border-a4 dark:hoverLtext-white dark:hover:border-white  dark:active:text-white dark:active:border-white dark:focus:text-white dark:focus:border-white transition-all duration-500 rounded-md tracking-wide
+    }
+
+    .link {
+        @apply text-sm text-a4 hover:underline hover:text-a1 dark:hover:text-a8 underline-offset-4 cursor-pointer
+    }
+}
+
+@layer utilities {
+    #beta {
+        @apply px-6 py-0.5 rounded-full text-[#f5a623] text-[0.9rem] bg-[#f7b955]/20 border border-[#f5a623] tracking-normal font-normal animate-pulse m-1
     }
 }

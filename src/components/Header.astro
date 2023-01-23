@@ -1,12 +1,23 @@
 ---
+import BackgroundGlow from "./BackgroundGlow.astro";
 export interface Props {
-    title: string;
-    lead: string
+  title: string;
+  lead: string;
 }
 
-const { title, lead } = Astro.props
+const { title, lead } = Astro.props;
 ---
 
-<header>
-    
+<header
+  class="flex justify-center flex-col items-start lg:items-center w0full my-10 md:my-20 md:mt-[20vh] text-start lg:text-center"
+>
+  <h1
+    class="w-fit bg-gradient-to-b from-a4 to-a1 dark:from-a8 dark:to-a4 text-transparent bg-clip-text break-words tracking-tighter font-extrabold"
+  >
+    {title}
+  </h1>
+  <p class="max-w-4xl mt-12 text-2xl md:text-3xl text-a4 font-light">{lead}</p>
+  <BackgroundGlow>
+  <a href="/create"><button class="btn-primary px-8 py-2">Create</button></a>
+  </BackgroundGlow>
 </header>

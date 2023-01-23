@@ -1,11 +1,15 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Dev.Story: Describe. Preview. Publish."
-desc="You are a developer? Create a nice README for your GitHub profile and generate markdown snippet with just one click"
-domain="dev-story.vercel.app">
-	
+<Layout
+  title="Dev.Story: Describe. Preview. Publish."
+  desc="You are a developer? Create a nice README for your GitHub profile and generate markdown snippet with just one click"
+  domain="dev-story.vercel.app"
+>
+  <Header
+    title="Describe. Preview. Publish."
+    lead="Simple and stylish GitHub profile description is just a copy&paste away. And this is somewhat opinionated minimalistic README.md generator for developers and builders."
+  />
 </Layout>
-
-

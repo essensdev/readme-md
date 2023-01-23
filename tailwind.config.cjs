@@ -22,10 +22,10 @@ module.exports = {
 				transparent: 'transparent',
 				current: 'currentColor'
 			},
+			animation: {
+				glow: 'glow 3s linear infinite'
+			},
 			keyframes: {
-				animation: {
-					glow: 'glow 3s linear infinite'
-				},
 				glow: {
 					'0%': {
 						opacity: 20
@@ -41,3 +41,4 @@ module.exports = {
 		},
 		plugins: [],
 	}
+}

@@ -1,0 +1,13 @@
+---
+export interface Props {
+    title: string;
+    href: string;
+    style: string
+}
+
+const { title, href, style } = Astro.props
+---
+
+<a class="cursor-pointer" href={href} target="_blank" rel="noreferrer noopener">
+    <button class={style}>{title}</button>
+</a>
