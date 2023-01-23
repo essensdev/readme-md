@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply antiliased h-screen flex flex-col justify-between bg-white dark:bg-black scroll-smooth
+    }
+
+    main {
+        @apply max-w-6xl mx-auto w-full px-5 xl:p-0 
+    }
+
+    h1 {
+        @apply text-7xl md: text-8xl
+    }
+
+    h3 {
+        @apply text-lg text-a1 dark: text-a8 tracking-wide
+    }
+
+    button {
+        @apply px-4 py-1 rounded-md
+    }
+
+    label {
+        @apply w-fit text-[0.9rem] text-a4 dark:text-a5
+    }
+
+    input, textarea {
+        @apply grow ring-0 outline-none text-[0.9rem] focus:border-a6 placeholder:text-a4 text-a1 dark:text-a8 px-3 py-1.5 rounded-md dark:bg-inherit dark:border-a3 font-mono
+    }
+}
