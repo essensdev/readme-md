@@ -13,19 +13,19 @@ export const basicInfo = writable([
         name: 'subtitle',
         label: 'Subtitle:',
         value: '',
-        placeholder: 'Briefly describe, what you are doing'
+        placeholder: 'Briefly describe, what you are doing. The limit is 150 symbols.'
     },
     {
         key: 3,
         name: 'desc',
         label: 'Description:',
         value: '',
-        placeholder: 'You can provide more details, if you want. The limit is 250 symbols.'
+        placeholder: 'You can provide more details, if you want. The limit is 300 symbols.'
     },
     {
         key: 4,
         name: 'location',
-        label: 'Based in:',
+        label: 'Location:',
         value: '',
         placeholder: 'Planet Earth'
     },

@@ -56,12 +56,10 @@ ${desc && desc}
       {/each}
     </p>
 
-    <p class="md-section">{`
+    <p class="md-section">
+      {`
 
-
-${desc && "---"}
-
-${location && "⚐ " + location}
+${location && "⚐ Based in " + location}
 
 ${currently && "ϟ Currently " + currently}
 
@@ -69,7 +67,12 @@ ${recent && "ϟ Recently " + recent}
 
 `}
     </p>
-
+    {#if $coreSkills.some((el) => el.value > 0) || $frontendSkills.some((el) => el.value > 0) || $backendSkills.some((el) => el.value > 0)}
+      <p>
+        {`## Skills
+  `}
+      </p>
+    {/if}
     <p class="md-section">
       {#each $coreSkills as skill (skill.key)}
         {#if skill.value == true}

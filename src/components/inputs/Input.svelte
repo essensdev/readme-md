@@ -6,7 +6,7 @@
     export let name
 </script>
 
-<div class="grid grid-cols-2 md:flex md:justify-start my-3 w-full">
-    <label class="w-1/5" for={name}>{label}</label>
-    <input spellcheck="true" autocomplete="off" class="w-full border" name={name} id={id} type=text bind:value={value} placeholder={placeholder} />
+<div class="flex flex-col lg:flex-row md:justify-start my-4 w-full">
+    <label class="w-1/5 mb-2" for={name}>{label}</label>
+    <input spellcheck="true" autocomplete="off" name={name} id={id} type=text bind:value={value} placeholder={placeholder} />
 </div>

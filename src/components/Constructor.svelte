@@ -15,7 +15,7 @@
   const loadComponent = (obj) => (selected = obj);
 </script>
 
-<div class="lg:grid grid-cols-2 w-full my-20 md:my-36 gap-20">
+<div class="lg:grid grid-cols-2 w-full my-20 gap-14">
   <form class="flex flex-col mb-20 lg:mb-0">
     <BasicInfo />
     <Socials />

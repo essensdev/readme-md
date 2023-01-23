@@ -32,11 +32,11 @@
     }
 
     label {
-        @apply w-fit text-[0.9rem] text-a4 dark:text-a5
+        @apply w-fit text-[0.9rem] text-a4 dark:text-a5 mr-3
     }
 
     input, textarea {
-        @apply grow ring-0 outline-none text-[0.9rem] focus:border-a6 placeholder:text-a4 text-a1 dark:text-a8 px-3 py-1.5 rounded-md dark:bg-inherit dark:border-a3 font-mono
+        @apply w-full border grow ring-0 outline-none text-[0.9rem] focus:border-a6 placeholder:text-a4 text-a1 dark:text-a8 px-3 py-1.5 rounded-md dark:bg-inherit dark:border-a3 font-mono
     }
 }
 

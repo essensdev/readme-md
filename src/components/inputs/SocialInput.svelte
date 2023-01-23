@@ -8,9 +8,9 @@
   export let img;
 </script>
 
-<div class="flex justify-evenly my-3 border border-a4 rounded-md">
+<div class="flex justify-evenly items-center my-3 border border-a4 rounded-md">
   <div
-    class="flex justify-center items-center bg-a8 dark:bg-a2/50 py-1 rounded-l-md px-2"
+    class="flex justify-start items-center bg-a8 dark:bg-a2/50 py-1 rounded-l-md px-2"
   >
     <img width="30" class="px-2" {alt} src={img} />
     <label class="hidden md:block" for={name}>{label}</label>
