@@ -1,0 +1,31 @@
+---
+export interface Props {
+  step: string;
+  color: string;
+  subtitle: string;
+  title: string;
+  lead: string;
+}
+
+const { step, color, subtitle, title, lead } = Astro.props;
+---
+
+<div class="my-20 md:my-36 w-full">
+  <div class="flex justify-center flex-col items-center text-center">
+    <h4
+      class={`w-fit flex justify-center items-center rounded-full text-a1 dark:text-a8 text-xl font-bold bg-gradient-to-tl ${color} aspect-square py-3 px-6 mx-auto my-6`}
+    >
+      {step}
+    </h4>
+    <h4
+      class={`text-3xl font-extrabold mb-8 text-transparent bg-clip-text ${color}`}
+    >
+      {subtitle}
+    </h4>
+    <h2>{title}</h2>
+    <p class="text-xl text-a4 max-w-3xl">{lead}</p>
+  </div>
+  <div class="w-full md:grid grid-cols-2 gap-28 mt-10">
+    <slot />
+  </div>
+</div>

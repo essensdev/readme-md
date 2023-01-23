@@ -1,0 +1,113 @@
+---
+import Section from "./Section.astro";
+
+import user from "../../public/images/utils/user.svg";
+import story from "../../public/images/utils/story.svg";
+import tool from "../../public/images/utils/tool.svg";
+import refresh from "../../public/images/utils/refresh.svg";
+import browser from "../../public/images/utils/browser.svg";
+import checked from "../../public/images/utils/checked.svg";
+import fileFilled from "../../public/images/utils/file-filled.svg";
+import filePlus from "../../public/images/utils/file-plus.svg";
+import arrow from "../../public/images/utils/arrow-down-square.svg";
+import Window from "./Window.astro";
+import Inputs from "../graphics/Inputs.astro";
+import Info from "./Info.astro";
+import MDPreview from "../graphics/MDPreview.astro";
+import GHPreview from "../graphics/GHPreview.astro";
+---
+
+<div class="max-w-4xl mx-auto">
+  <Section
+    step="1"
+    color="blue-gradient"
+    title="Tell your story"
+    subtitle="Describe"
+    lead="There is leverage in uniqueness, so do not hesitate to share yours"
+  >
+    <div class="flex justify-center items-center">
+      <Window>
+        <Inputs />
+      </Window>
+    </div>
+    <div class="mt-10 md:mt-0">
+      <Info
+        title="Present yourself"
+        lead="Tell about who you are and what you are about"
+        img={user}
+      />
+      <Info
+        title="Share the journey"
+        lead="Dive deeper and describe your professional or personal journey to provide more details"
+        img={story}
+      />
+      <Info
+        title="Show off your skills"
+        lead="Your uniques skills are superpowers, so do not feel shy about them"
+        img={tool}
+      />
+    </div>
+  </Section>
+
+  <Section
+    step="2"
+    color="orange-gradient"
+    title="Have a look"
+    subtitle="Preview"
+    lead="Preview and polish your story, check the markdown markup, and update as needed"
+  >
+    <div class="flex justify-center items-center">
+      <Window>
+        <MDPreview />
+      </Window>
+    </div>
+    <div class="mt-10 md:mt-0">
+      <Info
+        title="Updates on the fly"
+        lead="Preview the outputs in real time white filling the form"
+        img={refresh}
+      />
+      <Info
+        title="Catch all the typos"
+        lead="Live spell-checking to help you tell the most compelling story"
+        img={checked}
+      />
+      <Info
+        title="Preview markdown markup"
+        lead="Switch from normal to markdown preview anytime"
+        img={fileFilled}
+      />
+    </div>
+  </Section>
+
+  <Section
+    step="3"
+    color="purple-gradient"
+    title="Copy&Paste"
+    subtitle="Publish"
+    lead="Ready to share it with the world? Just copy your story, and update your GitHub profile in a couple of clicks"
+  >
+    <div class="flex justify-center items-center">
+      <Window>
+        <GHPreview />
+      </Window>
+    </div>
+    <div class="mt-10 md:mt-0">
+      <Info
+        title="Create README.md"
+        lead="Create a file if you do not have one yet, or navigate to the existing one"
+        img={filePlus}
+      />
+      <Info
+        title="Paste the markup"
+        lead="Copy and paste the markdown markup into the file"
+        img={arrow}
+      />
+      <Info
+        title="Keep building – with style"
+        lead="Keep building – with style"
+        img={browser}
+      />
+    </div>
+  </Section>
+</div>

@@ -1,0 +1,17 @@
+---
+export interface Props {
+    title: string;
+    img: string;
+    lead: string
+}
+
+const { title, lead, img } = Astro.props
+---
+
+<div class="py-6">
+    <div class="w-10 aspect-square">
+        <img src={img} class="bg-a7 dark:bg-a3 p-2 rounded-md" />
+    </div>
+    <h4 class="text-a1 dark:text-a8 text-2xl font-bold mt-2 mb-3">{title}</h4>
+    <p class="text-a4 text-lg">{lead}</p>
+</div>

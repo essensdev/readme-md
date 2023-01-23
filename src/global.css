@@ -12,11 +12,15 @@
     }
 
     nav, footer {
-        @apply py-10 px-5
+        @apply p-5
     }
 
     h1 {
         @apply text-7xl md:text-8xl
+    }
+
+    h2 {
+        @apply text-5xl font-black tracking-wide text-a1 dark:text-a8
     }
 
     h3 {
@@ -47,6 +51,30 @@
 
     .link {
         @apply text-sm text-a4 hover:underline hover:text-a1 dark:hover:text-a8 underline-offset-4 cursor-pointer
+    }
+
+    .blue-gradient {
+        @apply bg-gradient-to-tl from-[#00F5A0] to-[#00D9F5]
+    }
+
+    .orange-gradient {
+        @apply bg-gradient-to-tl from-[#F9DB43] to-[#FD495E]
+    }
+
+    .purple-gradient {
+        @apply bg-gradient-to-tl from-[#4646FB] to-[#BE4DFF]
+    }
+    
+    .g-input {
+        @apply px-3 py-1 border border-a4 rounded-md text-sm text-a1 dark:text-a8 w-full font-mono
+    }
+
+    .g-big-circle {
+        @apply w-14 aspect-square rounded-full bg-a7 dark:bg-a3
+    }
+
+    .g-small-circle {
+        @apply w-2 aspect-square rounded-full bg-a7 dark:bg-a3
     }
 }
 
