@@ -42,7 +42,7 @@
 >
   <div id="markdown-output" class="w-full font-mono text-a5 text-[0.7rem]">
     <p class="md-section">
-{`${name.length > 0 && "# " + name}
+      {`${name.length > 0 && "# " + name}
 
 ${subtitle.length > 0 && "#### " + subtitle}
 
@@ -54,7 +54,7 @@ ${desc.length > 0 && "---"}
     </p>
 
     <p class="md-section">
-{`${location.length > 0 && "⚐ " + location}
+      {`${location.length > 0 && "⚐ " + location}
 
 ${website.length > 0 && "[Website ↗︎](" + website + ")"}
 
@@ -64,7 +64,7 @@ ${email.length > 0 && "[Email ↗︎](mailto:" + email + ")"}
     </p>
 
     <p class="md-section">
-{`${currently.length > 0 && "ϟ Currently " + currently}
+      {`${currently.length > 0 && "ϟ Currently " + currently}
 
 ${recent.length > 0 && "ϟ Recently" + recent}
 
@@ -72,43 +72,48 @@ ${recent.length > 0 && "ϟ Recently" + recent}
     </p>
     <p class="md-output">
       <span>{`<p aligh="left">`}</span>
-        {#each $socialLinks as link (link.key) }
-            <span>
-                {`<a href=${link.url}${link.value} target="_blank" rel="noreferrer noopener"><img src=${link.img} alt=${link.alt} width="25" height="25" /></a>`} 
-            </span>
-        {/each}
+      {#each $socialLinks as link (link.key)}
+        <span>
+          {`<a href=${link.url}${link.value} target="_blank" rel="noreferrer noopener"><img src=${link.img} alt=${link.alt} width="25" height="25" /></a>`}
+        </span>
+      {/each}
       <span>{`</p>`}</span>
     </p>
 
     <p class="md-output">
-        <span>{`<p aligh="left">`}</span>
-          {#each $coreSkills as skill (skill.key) }
-              <span>
-                  {`<a href=${skill.url}${skill.value} target="_blank" rel="noreferrer noopener"><img src=${skill.img} alt=${skill.alt} width="25" height="25" /></a>`} 
-              </span>
-          {/each}
-        <span>{`</p>`}</span>
-      </p>
+      <span>{`<p aligh="left">`}</span>
+      {#each $coreSkills as skill (skill.key)}
+        {#if skill.value == true}
+          <span>
+            {`<a href=${skill.url}${skill.value} target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
+          </span>
+        {/if}
+      {/each}
+      <span>{`</p>`}</span>
+    </p>
 
+    <p class="md-output">
+      <span>{`<p aligh="left">`}</span>
+      {#each $frontendSkills as skill (skill.key)}
+        {#if skill.value == true}
+          <span>
+            {`<a href=${skill.url}${skill.value} target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
+          </span>
+        {/if}
+      {/each}
+      <span>{`</p>`}</span>
+    </p>
 
-      <p class="md-output">
-        <span>{`<p aligh="left">`}</span>
-          {#each $frontendSkills as skill (skill.key) }
-              <span>
-                  {`<a href=${skill.url}${skill.value} target="_blank" rel="noreferrer noopener"><img src=${skill.img} alt=${skill.alt} width="25" height="25" /></a>`} 
-              </span>
-          {/each}
-        <span>{`</p>`}</span>
-      </p>
-
-      <p class="md-output">
-        <span>{`<p aligh="left">`}</span>
-          {#each $backendSkills as skill (skill.key) }
-              <span>
-                  {`<a href=${skill.url}${skill.value} target="_blank" rel="noreferrer noopener"><img src=${skill.img} alt=${skill.alt} width="25" height="25" /></a>`} 
-              </span>
-          {/each}
-        <span>{`</p>`}</span>
-      </p>
+    <p class="md-output">
+      <span>{`<p aligh="left">`}</span>
+      {#each $backendSkills as skill (skill.key)}
+        {#if skill.value == true}
+          <span>
+            {`<a href=${skill.url}${skill.value} target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
+          </span>
+        {/if}
+      {/each}
+      <span>{`</p>`}</span>
+    </p>
   </div>
 </div>
