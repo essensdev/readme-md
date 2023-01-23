@@ -1,0 +1,15 @@
+---
+import Constructor from "../components/Constructor.svelte";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Dev.Story: Describe. Preview. Publish."
+  desc="You are a developer? Create a nice README for your GitHub profile and generate markdown snippet with just one click"
+  domain="dev-story.vercel.app"
+>
+<h1 class="text-6xl bg-gradient-to-b from-a4 to-a1 dark:from-a8 dark:to-a4 text-transparent bg-clip-text break-words tracking-tighter font-extrabold leading-normal md:leading-loose">Create Your Story</h1>
+
+<Constructor client:load />
+
+</Layout>

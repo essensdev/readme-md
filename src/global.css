@@ -76,6 +76,22 @@
     .g-small-circle {
         @apply w-2 aspect-square rounded-full bg-a7 dark:bg-a3
     }
+
+    .skills-section-title {
+        @apply text-base text-a1 dark:text-a8 mb-5
+    }
+
+    .skills-grid {
+        @apply grid grid-cols-3 md:grid-cols-4 gap-2 text-sm
+    }
+
+    .skill-normal {
+        @apply px-2 py-1.5 bg-a8 text-a1 dark:bg-a1 dark:text-a8 hover:bg-a7 dark:hover:bg-a2 text-[0.9rem]
+    }
+    
+    .skill-active {
+        @apply px-2 py-1.5 bg-a4 text-white text-[0.9rem] dark:text-black
+    }
 }
 
 @layer utilities {
