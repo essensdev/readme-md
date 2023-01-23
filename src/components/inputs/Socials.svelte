@@ -1,7 +1,7 @@
 <script>
   import autoAnimate from "@formkit/auto-animate";
   import { socialLinks } from "../../stores";
-  import SocialInput from "../SocialInput.svelte";
+  import SocialInput from "./SocialInput.svelte";
 
   $: visible = false;
 </script>

@@ -1,6 +1,6 @@
 <script>
 import { basicInfo } from "../../stores";
-import Input from "../Input.svelte";
+import Input from "./Input.svelte";
 </script>
 
  <div class="mb-10">
@@ -8,7 +8,7 @@ import Input from "../Input.svelte";
     {#each $basicInfo as el (el.key)}
       {#if el.name == "desc"}
         <div
-          class="sm:grid sm:grid-cols-2 md:flex md:justify-start my-3 w-full"
+          class="grid grid-cols-2 md:flex md:justify-start my-3 w-full"
         />
         <label class="w-1/5" for="desc">Description</label>
         <textarea

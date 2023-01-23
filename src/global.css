@@ -46,7 +46,7 @@
     }
 
     .btn-secondary {
-        @apply bg-a8 text-a4 hover:text-black border hover:border-black border-a7 focus:text-black focus:border-black dark:bg-a1 dark:text-a4 dark:border-a4 dark:hoverLtext-white dark:hover:border-white  dark:active:text-white dark:active:border-white dark:focus:text-white dark:focus:border-white transition-all duration-500 rounded-md tracking-wide
+        @apply bg-a8 text-a4 hover:text-black border hover:border-black border-a7 focus:text-black focus:border-black dark:bg-a1 dark:text-a4 dark:border-a4 dark:hover:text-white dark:hover:border-white  dark:active:text-white dark:active:border-white dark:focus:text-white dark:focus:border-white transition-all duration-500 rounded-md tracking-wide
     }
 
     .link {
@@ -91,6 +91,22 @@
     
     .skill-active {
         @apply px-2 py-1.5 bg-a4 text-white text-[0.9rem] dark:text-black
+    }
+
+    .preview-container {
+        @apply w-full h-screen md:h-[80vh] border border-a7 dark:border-a4 rounded-md flex flex-col justify-between items-center
+    }
+
+    .component-toggle-top {
+        @apply flex lg:hidden preview-buttons-section rounded-t-md border-b
+    }
+
+    .component-toggle-bottom {
+        @apply hidden lg:flex preview-buttons-section rounded-b-md border-t
+    }
+
+    .preview-buttons-section {
+        @apply w-full flex justify-start gap-5 bg-a8 dark:bg-a1 p-5 border-a7 dark:border-a4
     }
 }
 
