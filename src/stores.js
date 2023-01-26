@@ -104,7 +104,7 @@ export const socialLinks = writable([
         key: 7,
         name: 'discord',
         value: '',
-        url: 'https://discord.com/user/',
+        url: 'https://discord.com/',
         placeholder: 'account',
         alt: 'Discord',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/discord.svg'
