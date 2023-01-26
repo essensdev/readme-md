@@ -5,7 +5,7 @@
     coreSkills,
     frontendSkills,
     backendSkills,
-  } from "../../stores";
+  } from '../../stores';
 
   $: name = $basicInfo[0].value;
   $: subtitle = $basicInfo[1].value;
@@ -58,7 +58,7 @@
   </div>
 
   <!-- SKILLS -->
-  <div class="flex justify-start items-center gap-2 my-2">
+  <div class="flex justify-start items-center gap-2 my-2 flex-wrap">
     {#each $coreSkills as skill (skill.key)}
       {#if skill.value == true}
         <img class="w-6 mx-1" alt={skill.alt} src={skill.img} />
