@@ -58,7 +58,7 @@
   </div>
 
   <!-- SKILLS -->
-  <div class="flex justify-start items-center gap-2 my-2 flex-wrap">
+  <div class="flex justify-start items-center gap-2 my-2 pb-4 flex-wrap">
     {#each $coreSkills as skill (skill.key)}
       {#if skill.value == true}
         <img class="w-6 mx-1" alt={skill.alt} src={skill.img} />
