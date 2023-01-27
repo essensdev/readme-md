@@ -32,7 +32,7 @@
         >
       {/each}
     </div>
-    <div class="overflow-hidden w-full h-full rounded-md">
+    <div class="overflow-y-auto w-full h-full rounded-md">
       <svelte:component this={selected.component} />
     </div>
     <div class="component-toggle-bottom">
