@@ -619,33 +619,6 @@ export const web3Skills = writable([
         value: false,
         alt: 'Arweave',
         url: 'https://www.arweave.org',
-        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/chainarweavelarweaveink.svg',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/arweave.svg',
     },
 ])
-
-// export const extraSkills = writable([
-//     {
-//         key: 1,
-//         name: 'electron',
-//         value: false,
-//         alt: 'Electron',
-//         url: 'https://www.electronjs.org',
-//         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/extra/electron.svg',
-//     },
-//     {
-//         key: 2,
-//         name: 'tauri',
-//         value: false,
-//         alt: 'Tauri',
-//         url: 'https://tauri.app',
-//         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/extra/tauri.svg',
-//     },
-//     {
-//         key: 3,
-//         name: 'flutter',
-//         value: false,
-//         alt: 'Flutter',
-//         url: 'https://flutter.dev',
-//         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/extra/flutter.svg',
-//     }
-// ])
