@@ -622,3 +622,39 @@ export const web3Skills = writable([
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/arweave.svg',
     },
 ])
+
+
+export const noCodeSkills = writable ([
+    {
+        key: 1,
+        name: 'tilda',
+        value: false,
+        alt: 'Tilda',
+        url: 'http://tilda.cc/',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/nocode/tilda.svg',
+    },
+    {
+        key: 2,
+        name: 'readymag',
+        value: false,
+        alt: 'Readymag',
+        url: 'https://readymag.com',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/nocode/readymag.svg',
+    },
+    {
+        key: 3,
+        name: 'webflow',
+        value: false,
+        alt: 'Webflow',
+        url: 'https://webflow.com/',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/nocode/webflow.svg',
+    },
+    {
+        key: 4,
+        name: 'bubble',
+        value: false,
+        alt: 'Bubble',
+        url: 'https://bubble.io',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/nocode/bubble.svg',
+    },
+])
