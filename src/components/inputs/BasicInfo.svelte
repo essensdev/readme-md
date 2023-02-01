@@ -3,8 +3,7 @@
   import Input from "./Input.svelte";
 </script>
 
-<div class="mb-10">
-  <h3 class="mb-5">Basic Information</h3>
+<div class="my-5">
   {#each $basicInfo as el (el.key)}
     {#if el.name == "desc"}
       <div class="flex flex-col lg:flex-row md:justify-start my-4 w-full">

@@ -22,10 +22,10 @@ const { step, color, subtitle, title, lead } = Astro.props;
     >
       {subtitle}
     </h4>
-    <h2>{title}</h2>
-    <p class="text-xl text-a4 max-w-3xl">{lead}</p>
+    <h2 class="text-5xl font-black tracking-wide text-a1 dark:text-a8">{title}</h2>
+    <p class="text-xl text-a4 max-w-3xl mt-4">{lead}</p>
   </div>
-  <div class="w-full md:grid grid-cols-2 gap-28 mt-10">
+  <div class="w-full md:grid grid-cols-2 gap-28 mt-8">
     <slot />
   </div>
 </div>

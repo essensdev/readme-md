@@ -4,26 +4,26 @@
   import Skills from "./inputs/Skills.svelte";
   import Preview from "./previews/Preview.svelte";
   import Markdown from "./previews/Markdown.svelte";
+  import InputsSection from "./InputsSection.svelte";
 
-  const components = [
+
+  const componentsPreview = [
     { name: "Preview", component: Preview },
     { name: "Markdown", component: Markdown },
   ];
 
-  let selected = components[0];
 
-  const loadComponent = (obj) => (selected = obj);
+  let preview = componentsPreview[0];
+  const loadComponent = (obj) => (preview = obj);
+
 </script>
 
 <div class="lg:grid grid-cols-2 w-full my-20 gap-14">
-  <form class="flex flex-col mb-20 lg:mb-0">
-    <BasicInfo />
-    <Socials />
-    <Skills />
-  </form>
+  <InputsSection />
+
   <div class="preview-container">
     <div class="component-toggle-top">
-      {#each components as component}
+      {#each componentsPreview as component}
         <button
           on:click={() => loadComponent(component)}
           class={`w-fit ${
@@ -36,7 +36,7 @@
       <svelte:component this={selected.component} />
     </div>
     <div class="component-toggle-bottom">
-      {#each components as component}
+      {#each componentsPreview as component}
         <button
           on:click={() => loadComponent(component)}
           class={`w-fit ${

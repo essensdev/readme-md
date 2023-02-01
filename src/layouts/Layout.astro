@@ -36,9 +36,9 @@ const { title, desc, domain } = Astro.props;
 
     <meta property="twitter:url" content={domain} />
   </head>
-  <body>
+  <body class="antialiased h-screen flex flex-col justify-between bg-white dark:bg-black scroll-smooth">
     <Nav />
-    <main>
+    <main class="max-w-6xl mx-auto w-full px-5 xl:p-0 ">
       <slot />
     </main>
     <Footer />

@@ -118,6 +118,15 @@ export const socialLinks = writable([
         alt: 'Behance',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/behance.svg'
     },
+    {
+        key: 9,
+        name: 'instagram',
+        value: '',
+        url: 'http://instagram.com/',
+        placeholder: 'account',
+        alt: 'Instagram',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/instagram.svg'
+    },
 ])
 
 export const coreSkills = writable([
@@ -260,7 +269,7 @@ export const coreSkills = writable([
 ])
 
 export const frontendSkills = writable([
-      {
+    {
         key: 1,
         name: 'html5',
         value: false,
@@ -528,3 +537,115 @@ export const backendSkills = writable([
         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/backend/sanity.svg',
     },
 ])
+
+
+
+export const web3Skills = writable([
+    {
+        key: 1,
+        name: 'solidity',
+        value: false,
+        alt: 'Solidity',
+        url: 'https://soliditylang.org',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/solidity.svg',
+    },
+    {
+        key: 2,
+        name: 'ethers',
+        value: false,
+        alt: 'Ethers',
+        url: 'https://docs.ethers.org/v4/index.html',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/ethers.svg',
+    },
+    {
+        key: 3,
+        name: 'hardhat',
+        value: false,
+        alt: 'Hardhat',
+        url: 'https://hardhat.org',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/hardhat.svg',
+    },
+    {
+        key: 4,
+        name: 'truffle',
+        value: false,
+        alt: 'Truffle',
+        url: 'https://trufflesuite.com/',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/truffle.svg',
+    },
+    {
+        key: 5,
+        name: 'wagmi',
+        value: false,
+        alt: 'WAGMI',
+        url: 'https://wagmi.sh',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/wagmi.svg',
+    },
+    {
+        key: 6,
+        name: 'alchemy',
+        value: false,
+        alt: 'Alchemy',
+        url: 'https://www.alchemy.com',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/alchemy.svg',
+    },
+    {
+        key: 7,
+        name: 'infura',
+        value: false,
+        alt: 'Infura',
+        url: 'https://www.infura.io',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/infura.svg',
+    },
+    {
+        key: 8,
+        name: 'ipfs',
+        value: false,
+        alt: 'IPFS',
+        url: 'https://ipfs.tech',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/ipfs.svg',
+    },
+    {
+        key: 9,
+        name: 'chainlink',
+        value: false,
+        alt: 'ChainLink',
+        url: 'https://chain.link',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/chainlink.svg',
+    },
+    {
+        key: 10,
+        name: 'arweave',
+        value: false,
+        alt: 'Arweave',
+        url: 'https://www.arweave.org',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/web3/chainarweavelarweaveink.svg',
+    },
+])
+
+// export const extraSkills = writable([
+//     {
+//         key: 1,
+//         name: 'electron',
+//         value: false,
+//         alt: 'Electron',
+//         url: 'https://www.electronjs.org',
+//         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/extra/electron.svg',
+//     },
+//     {
+//         key: 2,
+//         name: 'tauri',
+//         value: false,
+//         alt: 'Tauri',
+//         url: 'https://tauri.app',
+//         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/extra/tauri.svg',
+//     },
+//     {
+//         key: 3,
+//         name: 'flutter',
+//         value: false,
+//         alt: 'Flutter',
+//         url: 'https://flutter.dev',
+//         img: 'https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/skills/extra/flutter.svg',
+//     }
+// ])

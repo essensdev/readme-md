@@ -3,29 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        @apply antialiased h-screen flex flex-col justify-between bg-white dark:bg-black scroll-smooth
-    }
 
-    main {
-        @apply max-w-6xl mx-auto w-full px-5 xl:p-0 
-    }
-
-    nav, footer {
-        @apply p-5
-    }
-
-    h1 {
-        @apply text-7xl md:text-8xl
-    }
-
-    h2 {
-        @apply text-5xl font-black tracking-wide text-a1 dark:text-a8
-    }
-
-    h3 {
-        @apply text-lg text-a1 dark:text-a8 tracking-wide
-    }
 
     button {
         @apply px-4 py-1 rounded-md
@@ -78,19 +56,19 @@
     }
 
     .skills-section-title {
-        @apply text-base text-a1 dark:text-a8 mb-5
+        @apply text-base text-a1 dark:text-a8
     }
 
     .skills-grid {
-        @apply grid grid-cols-3 md:grid-cols-4 gap-2 text-sm
+        @apply grid grid-cols-3 md:grid-cols-5 gap-2 text-[0.8rem] mt-3
     }
 
     .skill-normal {
-        @apply px-2 py-1.5 bg-a8 text-a1 dark:bg-a1 dark:text-a8 hover:bg-a7 dark:hover:bg-a2 text-[0.9rem]
+        @apply px-2 py-1.5 bg-a8 text-a1 dark:bg-a1 dark:text-a6 hover:bg-a7 dark:hover:bg-a2
     }
     
     .skill-active {
-        @apply px-2 py-1.5 bg-a4 text-white text-[0.9rem] dark:text-black
+        @apply px-2 py-1.5 bg-a4 text-white dark:text-black
     }
 
     .preview-container {

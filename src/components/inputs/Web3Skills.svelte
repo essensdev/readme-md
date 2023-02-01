@@ -1,11 +1,11 @@
 <script>
-  import { frontendSkills } from "../../stores";
+  import { web3Skills } from "../../stores";
 </script>
 
 <div class="my-5">
-  <h4 class="skills-section-title">Front-End Skills</h4>
+  <h4 class="skills-section-title">Web3 Skills</h4>
   <div class="skills-grid">
-    {#each $frontendSkills as skill (skill.key)}
+    {#each $web3Skills as skill (skill.key)}
       <button
         on:click={(event) => {
           event.preventDefault();

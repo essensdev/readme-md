@@ -1,7 +1,7 @@
 <script>
     import { coreSkills } from "../../stores";
 </script>
-<div class="my-10">
+<div class="my-5">
     <h4 class="skills-section-title">Core Skills</h4>
     <div class="skills-grid">
       {#each $coreSkills as skill (skill.key)}
