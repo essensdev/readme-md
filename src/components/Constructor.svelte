@@ -7,13 +7,13 @@
   import InputsSection from "./InputsSection.svelte";
 
 
-  const componentsPreview = [
+  const components = [
     { name: "Preview", component: Preview },
     { name: "Markdown", component: Markdown },
   ];
 
 
-  let preview = componentsPreview[0];
+  let selected = components[0];
   const loadComponent = (obj) => (preview = obj);
 
 </script>
@@ -23,7 +23,7 @@
 
   <div class="preview-container">
     <div class="component-toggle-top">
-      {#each componentsPreview as component}
+      {#each components as component}
         <button
           on:click={() => loadComponent(component)}
           class={`w-fit ${
@@ -36,7 +36,7 @@
       <svelte:component this={selected.component} />
     </div>
     <div class="component-toggle-bottom">
-      {#each componentsPreview as component}
+      {#each components as component}
         <button
           on:click={() => loadComponent(component)}
           class={`w-fit ${
