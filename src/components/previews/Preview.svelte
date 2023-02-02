@@ -5,6 +5,8 @@
     coreSkills,
     frontendSkills,
     backendSkills,
+    web3Skills,
+    noCodeSkills,
   } from '../../stores';
 
   $: name = $basicInfo[0].value;
@@ -72,6 +74,16 @@
     {/each}
 
     {#each $backendSkills as skill (skill.key)}
+      {#if skill.value == true}
+        <img class="w-6 mx-1" alt={skill.alt} src={skill.img} />
+      {/if}
+    {/each}
+    {#each $web3Skills as skill (skill.key)}
+      {#if skill.value == true}
+        <img class="w-6 mx-1" alt={skill.alt} src={skill.img} />
+      {/if}
+    {/each}
+    {#each $noCodeSkills as skill (skill.key)}
       {#if skill.value == true}
         <img class="w-6 mx-1" alt={skill.alt} src={skill.img} />
       {/if}

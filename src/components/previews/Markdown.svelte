@@ -5,6 +5,8 @@
     coreSkills,
     frontendSkills,
     backendSkills,
+    web3Skills,
+    noCodeSkills,
   } from "../../stores";
 
   $: name = $basicInfo[0].value;
@@ -98,6 +100,24 @@ ${recent && "ϟ Recently " + recent}
 
     <p class="md-section">
       {#each $backendSkills as skill (skill.key)}
+        {#if skill.value == true}
+          <span>
+            {`<a href="${skill.url}" target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
+          </span>
+        {/if}
+      {/each}
+    </p>
+    <p class="md-section">
+      {#each $web3Skills as skill (skill.key)}
+        {#if skill.value == true}
+          <span>
+            {`<a href="${skill.url}" target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
+          </span>
+        {/if}
+      {/each}
+    </p>
+    <p class="md-section">
+      {#each $noCodeSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
             {`<a href="${skill.url}" target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}

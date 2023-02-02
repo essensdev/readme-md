@@ -6,8 +6,7 @@
 <SkillsSection title="Low-Code/No-Code Skills">
   {#each $noCodeSkills as skill (skill.key)}
     <button
-      on:click={(event) => {
-        event.preventDefault();
+      on:click={() => {
         skill.value = !skill.value;
       }}
       class={skill.value == true

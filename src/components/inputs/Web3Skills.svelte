@@ -6,8 +6,7 @@
 <SkillsSection title="Web3 Skills">
   {#each $web3Skills as skill (skill.key)}
     <button
-      on:click={(event) => {
-        event.preventDefault();
+      on:click={() => {
         skill.value = !skill.value;
       }}
       class={skill.value == true
