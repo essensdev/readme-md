@@ -6,16 +6,16 @@
   import Markdown from "./previews/Markdown.svelte";
   import InputsSection from "./InputsSection.svelte";
 
-
   const components = [
     { name: "Preview", component: Preview },
     { name: "Markdown", component: Markdown },
   ];
 
+  let component = components[0];
 
-  let selected = components[0];
-  const loadComponent = (obj) => (preview = obj);
-
+  const loadComponent = (obj) => {
+    component = obj;
+  };
 </script>
 
 <div class="lg:grid grid-cols-2 w-full my-20 gap-14">
@@ -33,7 +33,7 @@
       {/each}
     </div>
     <div class="overflow-y-auto w-full h-full rounded-md">
-      <svelte:component this={selected.component} />
+      <svelte:component this={component.component} />
     </div>
     <div class="component-toggle-bottom">
       {#each components as component}

@@ -1,9 +1,7 @@
 <script>
-  import { onMount } from "svelte";
   import BasicInfo from "./inputs/BasicInfo.svelte";
   import Socials from "./inputs/Socials.svelte";
   import Skills from "./inputs/Skills.svelte";
-  import Tab from "./Tab.svelte";
 
   const components = [
     { id: 1, name: "Basic Info", component: BasicInfo },
@@ -19,7 +17,6 @@
     active = obj.id;
   };
 
-  const handleClick = (tab) => (active = tab);
 </script>
 
 <div class="inputs-container">
