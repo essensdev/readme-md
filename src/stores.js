@@ -624,7 +624,7 @@ export const web3Skills = writable([
 ])
 
 
-export const noCodeSkills = writable ([
+export const noCodeSkills = writable([
     {
         key: 1,
         name: 'tilda',
@@ -672,5 +672,88 @@ export const noCodeSkills = writable ([
         alt: 'Airtable',
         url: 'http://adalo.com',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/nocode/airtable.svg',
+    },
+])
+
+export const softwareSkills = writable([
+    {
+        key: 1,
+        name: 'figma',
+        value: false,
+        alt: "Figma",
+        url: 'http://figma.com',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/software/figma.svg'
+    },
+    {
+        key: 2,
+        name: 'sketch',
+        value: false,
+        alt: "Sketch",
+        url: 'https://www.sketch.com',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/software/sketch.svg'
+    },
+    {
+        key: 3,
+        name: 'photoshop',
+        value: false,
+        alt: "Photoshop",
+        url: 'https://www.adobe.com/products/photoshop.html',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/software/photoshop.svg'
+    },
+    {
+        key: 4,
+        name: 'premiere',
+        value: false,
+        alt: "Premiere Pro",
+        url: 'https://www.adobe.com/products/premiere.html',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/software/premiere.svg'
+    },
+    {
+        key: 5,
+        name: 'illustrator',
+        value: false,
+        alt: "Illustrator",
+        url: 'https://www.adobe.com/products/illustrator.html',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/software/illustrator.svg'
+    },
+    {
+        key: 6,
+        name: 'lightroom',
+        value: false,
+        alt: "Lightroom",
+        url: 'https://www.adobe.com/products/lightroom.html',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/software/lightroom.svg'
+    },
+    {
+        key: 7,
+        name: 'indesign',
+        value: false,
+        alt: "InDesign",
+        url: 'https://www.adobe.com/products/indesign.html',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/software/indesign.svg'
+    },
+    {
+        key: 8,
+        name: 'aftereffects',
+        value: false,
+        alt: "After Effects",
+        url: 'https://www.adobe.com/products/aftereffects.html',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/software/aftereffects.svg'
+    },
+    {
+        key: 9,
+        name: 'audition',
+        value: false,
+        alt: "Audition",
+        url: 'https://www.adobe.com/products/audition.html',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/software/audition.svg'
+    },
+    {
+        key: 10,
+        name: 'xd',
+        value: false,
+        alt: "XD",
+        url: 'https://www.adobe.com/products/xd/fonts/xd.html',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/software/xd.svg'
     },
 ])

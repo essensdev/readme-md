@@ -4,6 +4,7 @@
   import FrontendSkills from "./FrontendSkills.svelte";
   import NoCodeSkills from "./NoCodeSkills.svelte";
   import Note from "./Note.svelte";
+  import SoftwareSkills from "./SoftwareSkills.svelte";
   import Web3Skills from "./Web3Skills.svelte";
 </script>
 
@@ -15,5 +16,6 @@
     <BackendSkills />
     <Web3Skills />
     <NoCodeSkills />
+    <SoftwareSkills />
   </div>
 </div>

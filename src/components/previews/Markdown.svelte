@@ -7,6 +7,7 @@
     backendSkills,
     web3Skills,
     noCodeSkills,
+    softwareSkills,
   } from "../../stores";
 
   $: name = $basicInfo[0].value;
@@ -118,6 +119,15 @@ ${recent && "ϟ Recently " + recent}
     </p>
     <p class="whitespace-pre-line break-all">
       {#each $noCodeSkills as skill (skill.key)}
+        {#if skill.value == true}
+          <span>
+            {`<a href="${skill.url}" target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
+          </span>
+        {/if}
+      {/each}
+    </p>
+    <p class="whitespace-pre-line break-all">
+      {#each $softwareSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
             {`<a href="${skill.url}" target="_blank" rel="noreferrer noopener"><img src="${skill.img}" alt="${skill.alt}" width="25" height="25" /></a>`}
