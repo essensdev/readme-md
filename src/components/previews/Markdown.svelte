@@ -42,7 +42,7 @@
     : "hidden"}
 >
   <div id="markdown-output" class="w-full font-mono text-a5 text-[0.7rem] p-5">
-    <p class="md-section">
+    <p class="whitespace-pre-line break-all">
       {`${name && "# " + name}
 ${subtitle && "### " + subtitle}
 
@@ -51,7 +51,7 @@ ${desc && "⤷ " + desc}
 `}
     </p>
 
-    <p class="md-section">
+    <p class="whitespace-pre-line break-all">
       {#each $socialLinks as link (link.key)}
         {#if link.value.length > 0}
           <span>
@@ -61,7 +61,7 @@ ${desc && "⤷ " + desc}
       {/each}
     </p>
 
-    <p class="md-section">
+    <p class="whitespace-pre-line break-all">
       {`
 
 ${location && "⚐ Based in " + location}
@@ -78,7 +78,7 @@ ${recent && "ϟ Recently " + recent}
   `}
       </p>
     {/if}
-    <p class="md-section">
+    <p class="whitespace-pre-line break-all">
       {#each $coreSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
@@ -88,7 +88,7 @@ ${recent && "ϟ Recently " + recent}
       {/each}
     </p>
 
-    <p class="md-section">
+    <p class="whitespace-pre-line break-all">
       {#each $frontendSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
@@ -98,7 +98,7 @@ ${recent && "ϟ Recently " + recent}
       {/each}
     </p>
 
-    <p class="md-section">
+    <p class="whitespace-pre-line break-all">
       {#each $backendSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>
@@ -107,7 +107,7 @@ ${recent && "ϟ Recently " + recent}
         {/if}
       {/each}
     </p>
-    <p class="md-section">
+    <p class="whitespace-pre-line break-all">
       {#each $web3Skills as skill (skill.key)}
         {#if skill.value == true}
           <span>
@@ -116,7 +116,7 @@ ${recent && "ϟ Recently " + recent}
         {/if}
       {/each}
     </p>
-    <p class="md-section">
+    <p class="whitespace-pre-line break-all">
       {#each $noCodeSkills as skill (skill.key)}
         {#if skill.value == true}
           <span>

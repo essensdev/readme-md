@@ -72,7 +72,4 @@
         @apply w-full flex justify-start gap-5 bg-a8 dark:bg-a1 p-5 border-a7 dark:border-a4
     }
 
-    .md-section {
-        @apply whitespace-pre-line break-all
-    }
 }
