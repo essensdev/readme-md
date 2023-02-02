@@ -55,21 +55,6 @@
         @apply w-2 aspect-square rounded-full bg-a7 dark:bg-a3
     }
 
-    .skills-section-title {
-        @apply text-base text-a1 dark:text-a8
-    }
-
-    .skills-grid {
-        @apply grid grid-cols-3 md:grid-cols-5 gap-2 text-[0.8rem] mt-3
-    }
-
-    .skill-normal {
-        @apply px-2 py-1.5 bg-a8 text-a1 dark:bg-a1 dark:text-a6 hover:bg-a7 dark:hover:bg-a2
-    }
-    
-    .skill-active {
-        @apply px-2 py-1.5 bg-a4 text-white dark:text-black
-    }
 
     .preview-container {
         @apply w-full h-screen md:h-[80vh] border border-a7 dark:border-a4 rounded-md flex flex-col justify-between items-center
