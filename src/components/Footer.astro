@@ -1,10 +1,25 @@
 ---
-
+import Link from "./Link.astro";
 ---
-<footer class="border-t border-a7 bg-a8 dark:border-a3 dark:bg-a1 dark:text-white p-4">
-    <ul class="flex justify-between items-center">
-        <li class="link"><a href="https://0xshapeshifter.vercel.app">by 0xShapeShifter</a></li>
-        <li class="link"><a href="https://twitter.com/0x_shapeshifter">Leave Feedback</a></li>
-        <li class="link"><a href="https://github.com/0xShapeShifter/readme-md"><img class="h-7 aspect-square" src='https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/github.svg' /></a></li>
-    </ul>
+
+<footer
+  class="border-t border-a7 bg-a8 dark:border-a3 dark:bg-a1 dark:text-white p-4"
+>
+  <ul class="flex justify-between items-center">
+    <li>
+      <Link url="https://0xshapeshifter.vercel.app">by 0xShapeShifter</Link>
+    </li>
+    <li>
+      <Link url="https://twitter.com/0x_shapeshifter">Leave Feedback</Link>
+    </li>
+
+    <li>
+      <Link url="https://github.com/0xShapeShifter/readme-md">
+        <img
+          class="h-7 aspect-square"
+          src="https://raw.githubusercontent.com/0xShapeShifter/dev-story/master/public/images/socials/github.svg"
+        />
+      </Link>
+    </li>
+  </ul>
 </footer>

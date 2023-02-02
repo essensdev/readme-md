@@ -27,10 +27,6 @@
         @apply bg-a8 text-a4 hover:text-black border hover:border-black border-a7 focus:text-black focus:border-black dark:bg-a1 dark:text-a4 dark:border-a4 dark:hover:text-white dark:hover:border-white  dark:active:text-white dark:active:border-white dark:focus:text-white dark:focus:border-white transition-all duration-500 rounded-md tracking-wide
     }
 
-    .link {
-        @apply text-sm text-a4 hover:underline hover:text-a1 dark:hover:text-a8 underline-offset-4 cursor-pointer
-    }
-
     .blue-gradient {
         @apply bg-gradient-to-tl from-[#00F5A0] to-[#00D9F5]
     }
