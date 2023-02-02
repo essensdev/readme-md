@@ -24,7 +24,10 @@
 <div
   class="flex w-full justify-end lg:bg-a8 lg:dark:bg-a1 p-4 lg:p-5 lg:border-b border-a7 dark:border-a4"
 >
-  <button id="btn-copy" on:click={copyText}>Copy</button>
+  <button
+    class="py-1 px-4 text-sm bg-a8 border-a7 dark:bg-a1 dark:text-a4 dark:border-a4 active:text-[#0070f3] active:bg-[#0070f3]/20 active:border-[#0070f3] active:duration-75 transition-all duration-500 rounded-md border tracking-wide"
+    on:click={copyText}>Copy</button
+  >
 </div>
 <div
   class={name.length > 0 ||

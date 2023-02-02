@@ -76,13 +76,3 @@
         @apply whitespace-pre-line break-all
     }
 }
-
-@layer utilities {
-    #beta {
-        @apply px-6 py-0.5 rounded-full text-[#f5a623] text-[0.9rem] bg-[#f7b955]/20 border border-[#f5a623] tracking-normal font-normal animate-pulse m-1
-    }
-
-    #btn-copy {
-        @apply py-1 px-4 text-sm bg-a8 border-a7 dark:bg-a1 dark:text-a4 dark:border-a4 active:text-[#0070f3] active:bg-[#0070f3]/20 active:border-[#0070f3] active:duration-75 transition-all duration-500 rounded-md border tracking-wide
-    }
-}
