@@ -3,7 +3,7 @@
   import SkillsSection from "./SkillsSection.svelte";
 </script>
 
-<SkillsSection title="Web3 Skills">
+<SkillsSection title="Web3 Skills" subtitle="Languages, frameworks and libraries for the blockchain and web3 developers">
   {#each $web3Skills as skill (skill.key)}
     <button
       on:click={() => {

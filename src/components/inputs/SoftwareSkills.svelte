@@ -3,7 +3,7 @@
   import SkillsSection from "./SkillsSection.svelte";
 </script>
 
-<SkillsSection title="Software">
+<SkillsSection title="Software" subtitle="Apps like Adobe, Figma and anything that helps creating">
   {#each $softwareSkills as skill (skill.key)}
     <button
       on:click={() => {

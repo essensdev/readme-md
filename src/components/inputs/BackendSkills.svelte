@@ -3,7 +3,7 @@
   import SkillsSection from "./SkillsSection.svelte";
 </script>
 
-<SkillsSection title="Back-End Skills">
+<SkillsSection title="Back-End Skills" subtitle="Back-end frameworks, libraries and databases">
   {#each $backendSkills as skill (skill.key)}
     <button
       on:click={(event) => {

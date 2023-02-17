@@ -3,7 +3,7 @@
   import { noCodeSkills } from "../../stores";
 </script>
 
-<SkillsSection title="Low-Code/No-Code Skills">
+<SkillsSection title="Low-Code/No-Code Skills" subtitle="Things like Webflow, Readymag and others">
   {#each $noCodeSkills as skill (skill.key)}
     <button
       on:click={() => {

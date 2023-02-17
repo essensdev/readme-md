@@ -3,7 +3,7 @@
   import SkillsSection from "./SkillsSection.svelte";
 </script>
 
-<SkillsSection title="Core Skills">
+<SkillsSection title="Core Skills" subtitle="Here you can find key programming skills">
   {#each $coreSkills as skill (skill.key)}
     <button
       on:click={(event) => {
