@@ -429,6 +429,14 @@ export const frontendSkills = writable([
         url: 'http://vitejs.dev/',
         img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/frontend/vite.svg',
     },
+    {
+        key: 21,
+        name: 'astro',
+        value: false,
+        alt: 'Astro',
+        url: 'http://astro.build',
+        img: 'https://raw.githubusercontent.com/0xShapeShifter/readme-md/master/public/images/skills/frontend/astro.svg',
+    },
 ])
 
 export const backendSkills = writable([
