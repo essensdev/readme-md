@@ -8,7 +8,7 @@ Since I like more minimalistic and simple visuals, I went with a pretty simple m
 If you would like me to add more social media, or skills, or share the description you ended up with, please reach out on [Twitter](https://twitter.com/0x_shapeshifter). I'll be happy to chat.
 
 ## How to use it
-Fill the form on the [website](https://dev-story.vercel.app/create), preview the results, copy and paste the snippet. That's it!
+Fill the form on the [website](https://readme-dev.vercel.app/), preview the results, copy and paste the snippet. That's it!
 
 ## How to add the snippet to your GitHub profile
 1. Generate the snippet.
