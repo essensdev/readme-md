@@ -24,7 +24,7 @@
     <div class="flex justify-between items-center">
       {#each components as component}
         <button
-          class={active === component.id ? "w-full border-b rounded-none border-a8 text-white" : "w-full border-b rounded-none text-a4 border-a4"}
+          class={active === component.id ? "w-full border-b rounded-none border-black text-black dark:border-a8 dark:text-white font-bold" : "w-full border-b rounded-none text-a4 border-a4"}
           on:click={(e) => {
             e.preventDefault();
             loadComponent(component);
